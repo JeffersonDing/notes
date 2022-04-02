@@ -28,6 +28,7 @@ theme:
 # Extensions
 markdown_extensions:
   - footnotes
+  - sane_lists
   - pymdownx.highlight:
      anchor_linenums: true
   - pymdownx.inlinehilite
