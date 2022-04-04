@@ -1,16 +1,19 @@
 window.MathJax = {
-  tex: {
-    inlineMath: [["\\(", "\\)"]],
-    displayMath: [["\\[", "\\]"]],
-    processEscapes: true,
-    processEnvironments: true,
-  },
-  options: {
-    ignoreHtmlClass: ".*|",
-    processHtmlClass: "arithmatex",
-  },
+    tex: {
+        inlineMath: [["\\(", "\\)"]],
+        displayMath: [["\\[", "\\]"]],
+        processEscapes: true,
+        processEnvironments: true,
+        macros: {
+            vec: ["{\\overrightarrow{#1}}", 1],
+        },
+    },
+    options: {
+        ignoreHtmlClass: ".*|",
+        processHtmlClass: "arithmatex",
+    },
 };
 
 document$.subscribe(() => {
-  MathJax.typesetPromise();
+    MathJax.typesetPromise();
 });

@@ -13,3 +13,13 @@ h5 {
     height: 2rem !important;
     margin: .1rem auto;
 }
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #c2c9d2;
+}
