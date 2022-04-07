@@ -104,6 +104,31 @@ As shown, if the dot product of the two vectors equal to 0, they are perpendicul
 
 ## Vector Product
 
+The vector product or the cross product is only defined for 3-dimensional vectors. The vector product or the cross products results in **a** vector which is perpendicular to the two known vectors.
+
+$$
+a=\begin{bmatrix}
+a_{1} \\
+a_{2} \\
+a_{3}
+\end{bmatrix},b=\begin{bmatrix}
+b_{1} \\
+b_{2} \\
+b_{3}
+\end{bmatrix},a\times b=\begin{bmatrix}
+a_{2}b_{3}-a_{3}b_{2} \\
+a_{3}b_{1}-a_{1}b_{3} \\
+a_{1}b_{2}-a_{2}b_{1}
+\end{bmatrix}
+$$
+
+An easy way to remember the operation is split into 3 steps:
+
+1. Cover row 1 and start a cross with the remaining 4 elements of the two vectors. Start from Upper Left.
+2. Find the difference between the two products of the cross (starting from upper left)
+3. Cover row two and invert cross with remaining 4 elements. Starting from Bottom Left. Find difference.
+4. Cover row 3 and return to starting from Upper Left when drawing the cross. Find the difference.
+
 ## Vector Lines in 2D and 3D
 
 ## Intersection of 2 Vector Lines
