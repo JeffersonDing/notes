@@ -129,7 +129,98 @@ An easy way to remember the operation is split into 3 steps:
 3. Cover row two and invert cross with remaining 4 elements. Starting from Bottom Left. Find difference.
 4. Cover row 3 and return to starting from Upper Left when drawing the cross. Find the difference.
 
-## Vector Lines in 2D and 3D
+### Properties of the Cross Product
+
+1. $a\times b$ is a vector perpendicular to $a$ and $b$
+2. $a\times a=0$ for all $a$
+3. $a\times b = (-b)\times a$ for all $a$ and $b$
+4. $a\cdot (b\times c)$ is the scalar triple product
+5. $a\times (b+b)=a\times b+a\times c$
+6. $\left( a+b\right) \times \left( c+d\right) =a\times c+a\times d+b\times c+b\times d$
+
+### Geometric Interpretation
+
+Using the cross product, we can find the area of a trangle or parallelogram without knwoing the angle between the two vectors due to:
+
+$$
+|a\times b| = |a||b|\sin(\theta)
+$$
+
+where we know the area of a traingle is $\frac{1}{2}ab\sin(\theta)$ thus the area of a trangle and a parallegorm is found.
+![](src/vectors20220415165025.png)
+
+## Vector Lines
+
+> **Recall**: the equation of a line is defined as $y=mx+b$ where $m$ defines the slope and $b$ defines the position
+
+A similar process can be done using vectors where one vector defines the "slope" or the direction and another positional vector shows the position.
+
+Suppose a line passes through a fixed point A with position vector $\vec{a}$ and the line is parallel to the vector $\vec{b}$.  
+Now consider a point $R$ on that line with a position vector $\vec{r}$. By vector addition, we know that $\vec{r}=\vec{a}+\vec{AR}$
+![](src/vectors20220415165446.png)  
+Since $\vec{AR}$ is parallel to $\vec{b}$ we can say that
+
+$$
+\vec{AR}=\lambda \vec{b}
+$$
+
+Where $\lambda \epsilon \mathbb{R}$ is some scalar multiple. Thus
+
+$$
+\vec{r} = \vec{a} + \lambda \vec{b},\ \lambda \epsilon \mathbb{R}
+$$
+
+is the vector equation for a line. Here vector $a$ represents a position and vector $b$ defines the direction.
+
+The vector equation fo a line is not unique. Any position vector of a point on the line can be used as the position vector $\vec{a}$ and any vector parallel can be the direction vector $\vec{b}$.
+
+In conclusion, using the vector equation of a line, we can plug in any lambda and it will generate points on the line.
+
+### Different Forms of Representing Vector Lines
+
+#### Vector Equation
+
+$$
+\begin{pmatrix}
+x \\
+y \\
+z
+\end{pmatrix}=\begin{pmatrix}
+a_{1} \\
+a_{2} \\
+a_{3}
+\end{pmatrix}+\lambda \begin{pmatrix}
+b_{1} \\
+b_{2} \\
+b_{3}
+\end{pmatrix}
+$$
+
+#### Parametric Equation
+
+$$
+\begin{cases}x=a_{1}+\lambda b_{1}\\
+y=a_{2}+\lambda b_{2}\\
+z=a_{3}+\lambda b_{3}\end{cases}
+$$
+
+#### Cartesian Equation
+
+By isolating $\lambda$ from the parametric equation:
+
+$$
+\dfrac{x-a_{1}}{b_{1}}=\dfrac{y-a_{2}}{b_{2}}=\dfrac{z-a_{3}}{b_{3}}
+$$
+
+> **Be Carefull**: Make sure that the form matches exactly in a question, for instance if the x component is $\frac{5-x}{6}$ the $b_1$ value is $-6$ and not $6$
+
+### Angle Between Two Lines
+
+To find the acute angle between two vector lines where $\cos(\theta)$ is always greater than 0, we just find the angle between the two directon vectors of the equation using the formula found earlier:
+
+$$
+\cos(\theta) = \frac{|b_1\cdot b_2|}{|b_1||b_2|}
+$$
 
 ## Intersection of 2 Vector Lines
 
