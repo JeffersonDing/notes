@@ -318,7 +318,7 @@ In this setup, we know that EMF is equal to the internal resistance times the cu
 
 > Note that a good voltmeter(multimeter these days) can measure EMF pretty well since they have a really large internal resistance and a very small current. Thus the measured voltage is very close to EMF.
 
-## Magnetic Effects of Electric Currents
+## Magnetism
 
 ### Magnetic Fields
 
@@ -326,11 +326,15 @@ Magnetic fields are caused by the presence of magnets or moving charges.
 
 Similar to how an electric charge experiences a force in an electric field, a magnet or an electric current experiences a force in a magnetic field.
 
-The unit of a magnetic field is Tesla (T).
+The unit of a magnetic field is Tesla (T) with the symbol $\vec{B}$ and is $1\ kg\cdot s^{-2}\cdot A^{-1}$ in SI units.
 
-![](src/electricity-magnetism20220415214430.gif)
+By convention, the direction of magnetic field is always from **North to South**
 
-#### Magnetic field patterns
+A single magnetic domain is the smallest magnet. If all small magnetic domains align, it craetes a larger magnetic field.
+
+![](src/electricity-magnetism20220419092807.png)
+
+#### Magnetic Field Patterns
 
 Magnetic fields can be graphically represented using magnetic field lines.
 
@@ -339,19 +343,32 @@ Magnetic fields can be graphically represented using magnetic field lines.
 
 Magnets
 
-![](src/electricity-magnetism20220415214441.png)
+![](src/electricity-magnetism20220419092842.png)
 
 Wire with current
-
-![](src/electricity-magnetism20220415214451.png)
-
-Solenoid with current
-
-![](src/electricity-magnetism20220415214500.png)
+![](src/electricity-magnetism20220419092938.png)
 
 Viewing the magnetic field in 3D, dots represent magnetic fields coming out of the page (like the tip of an arrow) and crosses represent magnetic fields going into the page (like the nock of an arrow).
 
 ![](src/electricity-magnetism20220415214511.png)
+
+#### Magnetic Field Strength
+
+The magnetic field strength is proportional to the current that passes through the conductor and is inversly porportional to the radial distance in which the field is measured.
+
+The magnetic field strength can be calculated using the following formula:
+
+$$
+\vec{B}=\frac{\mu_{0}I}{2\pi r}
+$$
+
+where $\mu_{0}$ is the permiability of free space which is $4\pi\times 10^{-7}\cdot T\cdot m\cdot A^{-1}$, $I$ is the current, and $r$ is the radial distance.
+
+#### Right Hand Rule
+
+To find the direction in which the magnetic field is pointing, the right hand rule is used. Using the right hand, we use the thumb to point towards the direction of the current and dircetion the four other fingers point is the direction of the magnetic field.
+
+![](src/electricity-magnetism20220419094009.jpg)
 
 ### Magnetic Force
 
@@ -361,22 +378,28 @@ The magnitude of the force acting on a current-carrying wire due to a magnetic f
 
 The equation may be multiplied by sinθ where θ is the angle between the direction of the field and the current. This can be ignored when θ=90 degrees because sin90 degrees equals to 1.
 
-#### Magnetic Force on a Moving Charge
+#### Magnetic Force on a Conductor
 
 The magnitude of the force acting on a moving charge due to a magnetic field can be given by
 
 $$
-F = q\vec{B}v\sin(\theta)
+F = Il\vec{B}\sin(\theta)
 $$
 
-where F is the force acting on the wire, B is the magnetic field, q is the amount of charge, v is the velocity of the charge, and θ is the angle between the direction of the field and the velocity.
+where F is the force acting on the wire, I is the current through the conductor ,l is the length of conductor in the field, and θ is the angle between the direction of the field and the conductor.
 
-![](src/electricity-magnetism20220415214632.png)
+![](src/electricity-magnetism20220419094222.png)
 
-Remember that the direction of the (conventional) current is the _opposite_ to that of the flow of electrons.
+##### Complete Right Hand Rule
 
-As the magnetic force is always perpendicular to the velocity of the charge, it acts as a centripetal force (see topic 6) and the charge follows a circular path. No work is done on the charge by the magnetic field.
+Another right hand rule can help us find the direction of the force on a conductor in a magnetic field. To do so:
 
-![](src/electricity-magnetism20220415214639.png)
+1. Line up four fingers with the magnetic field
+2. Align thumb with the directin of conventional current
+3. The direction of the inner palm is the direction of the force.
 
-![](src/electricity-magnetism20220415214650.png)
+![](src/electricity-magnetism20220419094440.jpg)
+
+If the angle between the conductor and field is not $90\degree$, if the thumb is pointing up, the direction is pointing outwards and vice verca.
+
+![](src/electricity-magnetism20220419094545.png)
