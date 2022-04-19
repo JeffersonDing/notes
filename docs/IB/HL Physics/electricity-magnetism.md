@@ -1,24 +1,25 @@
 # Eectricity and Magnetism
 
-## Electric Fields
+## Electricity
 
 ### Charge
 
-Electric charge can either be positive or negative.
+Electric charge can either be positive or negative with the symbol **Q** or **q** and is measure in Coulomb **C** which is a fundamental unit.
+A fundamental charge is the charge in an electron or proton. I'ts the smallest charge known to humans.
 
-Charges with the same sign repel each other and changes with the opposite sign attract.
+> The charge of one electron is equal to $1.6\times 10^{-19}\ C$.
+
+Charges with the same sign repel each other and changes with the opposite sign attract. Using a _positive test charge_ we can determine wheter an object is positively charged or negatively charged by observing whether it repels or attracts the test charge.
 
 ![](src/electricity-magnetism20220415213405.png)
 
-An object with equal amounts of positive change and negative charge is said to be electrically neutral.
-
-The unit of electric charge is coulomb (C).
-
-The charge of one electron is equal to 1.6\*10^-19C.
+An object with equal amounts of positive change and negative charge is said to be electrically neutral. Positively charged objects have a deficit of electrons and negatively charged objects hava an excess of electrons.
 
 Electric charge is always conserved. While charges could migrate from one body to another, the total charge remains the same.
 
-Conductors are materials which allow the passage of electric charge. This is due to the presence of free electrons in solid conductors.
+#### Conductors and Insulators
+
+Conductors are materials which allow the passage of electric charge. This is due to the presence of free electrons in solid conductors. The outter most electrons form _electron clouds_ and they are called conduction electrons.
 
 -   Examples of conductors include all metals, graphite, humans.
 
@@ -31,75 +32,137 @@ Insulators are materials which do not allow the passage of electric charge.
 Electric fields can be graphically represented as electric field lines.
 
 -   The direction of the field at a point is equal to the direction of the field line passing through that point (arrows from the positive pole to the negative pole).
--   The magnitude of the field at a point corresponds to the density of the field lines around that point. For a uniform electric field, the field lines are straight, parallel and equally spaced.
-
-Non-uniform electric field
-
-![](src/electricity-magnetism20220415213450.png)
-
-Uniform electric field
-
-![](src/electricity-magnetism20220415213501.png)
+-   The magnitude of the field at a point corresponds to the density of the field lines around that point. Closer to the charged object has a stronger electric field and further has weaker fields.
 
 The electric field lines curve outwards near the edge of the plates. This is known as the “edge effect”.
 
-Electric field strength (E) is the force per unit charge experienced by a positive test change placed in a field.
+**Non-uniform electric field**
 
-Coulomb’s law states
+![](src/electricity-magnetism20220415213450.png)
 
-![](src/electricity-magnetism20220415213529.gif)
+**Uniform electric field**
 
-where F is the force, q1 and q2 are the charge of the two objects (usually the same when considering two electrons), and r is the radius/distance between the two charges.
+![](src/electricity-magnetism20220415213501.png)
+
+#### Electric Field Strength
+
+Electric field strength (E) is the force per unit charge experienced by a positive test change placed in a field. It is defined as
+
+$$
+E = \frac{F_e}{q}
+$$
+
+It's quite similar to gravitational field strength which is $F_g=mg$
+
+#### Coulomb's Law
+
+The electrostatic force acts between all charged particles and can be attractive or repulsive. It is the charges
+themselves that cause the force to exist. The force that acts between two charges, q and Q, whose centres
+are separated by a distance of r is given by:
+
+$$
+F = \frac{1}{4\pi \epsilon_{0}}\times \frac{Qq}{r^2} =\frac{kQq}{r^2}
+$$
+
+where $F$ is the force, $q$ and $Q$ are the charge of the two objects (usually the same when considering two electrons), $r$ is the radius/distance between the two charges and $k$ is a calculated constant using the _permittivity of free space_ at $8.99\times 10^9\ Nm^2C^{-2}$
 
 Therefore, since F = qE = kqq/r^2, we can deduce that for non-uniform electric fields, the electric field strength can be calculated by
 
-![](src/electricity-magnetism20220415213553.gif)
+> Note that charge is a vector and has direction. Here $Q$ and $q$ show the positive/negative state of the charge.
 
-by cancelling out q (charge) on both sides.
+#### Chargin by Induction
 
-For uniform electric fields, the electric field strength can be calculated by!
+We first start with a conductive object with random charges at it's drift velocity
+![](src/electricity-magnetism20220418222437.png)  
+Then a negatively charged object is brought close to the object. Now a seperation of charge has been induced due to attraction and repulsion.  
+![](src/electricity-magnetism20220418222535.png)  
+Now if the objeict is connected to groud, some negative charges will escape  
+![](src/electricity-magnetism20220418222619.png)  
+The ground is disconnected and the charged rod is removed, the object will be left with positive charges.
+![](src/electricity-magnetism20220418222716.png)
 
-![](src/electricity-magnetism20220415213608.png)
+### Potential Difference (Voltage)
 
-### Electric Current
+The electric potential difference (pd) between two points is equal to the work done (energy) required per unit charge to move from one point to another. It is also known as voltage (V). It is the measure of the energy(in joules) per unit charge(in coulombs):
 
-The existence of an electric potential difference (see the last section of 5.1) across an object causes charges to flow through the object.
-
-Electric current (I) refers to the rate of flow of electric charge and can be given by the equation
-
-![](src/electricity-magnetism20220415213634.png)
-
-The direction of an (conventional) electric current is opposite to the direction of electron flow.
-
-![](src/electricity-magnetism20220415213645.png)
-
-### Direct Current (DC)
-
-Direct current (dc) is a uniform current flowing in one fixed direction in a circuit.
-
-Direct current is usually supplied by acid-based batteries or dry cells.
-
-![](src/electricity-magnetism20220415213712.png)
-
-### Potential Difference
-
-The electric potential difference (pd) between two points is equal to the work done (energy) required per unit charge to move from one point to another. It is also known as voltage (V).
-
-![](src/electricity-magnetism20220415213734.png)
+$$
+V=\frac{E}{q}
+$$
 
 Voltage is analogical to the differences of upstreams and downstreams where water flow in the stream is the flow of electrons within the circuit.
 
-## Heating effect of electric currents
+### Electromotive Force (EMF)
 
-### Circuit Diagrams
+The electromotive force (EMF) of a source is defined as the energy per unit charge supplied by the source. The unit for EMF is volt (V). EMF is essentially the Voltage of the system including the internal voltage drop of the source.
+
+$$
+\begin{aligned}
+&E=V+I r \\
+&E=I(R+r)
+\end{aligned}
+$$
+
+where $E=$ Electromotive force, $\mathrm{V}=$ Potential difference (Voltage), $I=$ Current, $\mathrm{R}=$ Load resistance and $r=$ Internal resistance
+
+### Electric Current
+
+The existence of an electric potential difference across an object causes charges to flow through the object. Electric current (I) refers to the rate of flow of electric charge. It's measure in _Ampers_ (A) and can be given by the equation
+
+$$
+I=\frac{Q}{t}
+$$
+
+The direction of an (conventional) electric current is opposite to the direction of electron flow due to convention.
+
+![](src/electricity-magnetism20220415213645.png)
+
+#### Current Carrying Conductors
+
+Initially electrons in a conductor travels at the _random drift velocity_. To move them, positive charges are used to attract negatively charged electrons to create movement.  
+The current that passes through the conductor is:
+
+$$
+I=nAvq
+$$
+
+where $n$ is the charge density which is the number of charge carriers per unit volume, $A$ is the cross sectional area, $v$ is the ramdom drift velocity and $q$ is the charge per charge carrier.
+
+![](src/electricity-magnetism20220418222216.png)
+
+### Power
+
+Power is the work done per unit time. Recall that
+
+$$
+V=\frac{E}{Q} \\
+I=\frac{Q}{t}
+$$
+
+and if we multiply the Voltage and Current we get
+
+$$
+V\times I= \frac{E}{Q}\times \frac{Q}{t} = \frac{E}{t}=P
+$$
+
+Power is measured in Watts.
+
+> The amount of work done to make an electron go through a potential difference of 1V is known as the "electron volt" or $eV$. It is found using $eV=VQ=1V\times 1.6\times 10^{-19}$
+
+### Circuits
 
 An electric circuit is an interconnection of electrical components in a closed loop.
 
+#### Circuit Diagrams
+
+A basic circuit consists of the power source which creates the EMF and components that create resistance.
+
 ![](src/electricity-magnetism20220415213819.png)
 
-![](src/electricity-magnetism20220415213833.png)
+List of usefull electrical components:
 
-#### Resistors
+![](src/electricity-magnetism20220418222854.png)
+
+##### Resistors
 
 A resistor is an electrical component which implements a specific resistance within an electric circuit.
 
@@ -107,11 +170,9 @@ A resistor with adjustable resistance is called a variable resistor.
 
 Resistors can be connected in series or in parallel.
 
-![](src/electricity-magnetism20220415213846.png)
+![](src/electricity-magnetism20220418224056.png)
 
-![](src/electricity-magnetism20220415213855.png)
-
-#### Voltmeters
+##### Voltmeters
 
 A voltmeter is used to measure the potential difference between two points.
 
@@ -119,7 +180,7 @@ A voltmeter should be connected in parallel with the components being measured.
 
 An ideal voltmeter has infinite resistance.
 
-#### Ammeter
+##### Ammeter
 
 An ammeter is used to measure the current passing through a point.
 
@@ -127,91 +188,135 @@ An ammeter should be connected in series at the point of measurement.
 
 An ideal ammeter has zero resistance.
 
-### Kirchhoff's Circuit Laws
+#### Ohm’s law
 
-![](src/electricity-magnetism20220415213907.png)
-
-Kirchhoff’s junction rule is a statement of the conservation of charge flow per time. The sum of all currents flowing into a junction must equal the sum of all currents flowing out.
-
-![](src/electricity-magnetism20220415213922.png)
-
-Kirchhoff’s loop rule is a statement of the conservation of electric potential energy per charge. For a complete loop of an electrical circuit all of the electric potential rises added together must equal all of the electric potential drops added together.
-
-![](src/electricity-magnetism20220415213931.png)
-
-### Resistance expressed as R=V/I
-
-The resistance (R) of an object can be seen as a measure of opposition to electric current through the object.
-
-It is given by the ratio between the electric potential difference (V) and the current induced (I).
-
-![](src/electricity-magnetism20220415214126.png)
-
-### Ohm’s law
-
-Ohm’s law states that the current flowing through a conductor is proportional to the electric potential difference across the conductor.
-
--   If we plot current versus potential difference, the slope of the resulting graph is constant.
+Ohm’s law states that the current flowing through a conductor is proportional to the electric potential difference across the conductor $V\alpha I$
 
 Ohm’s law is not always obeyed. A conductor which obeys Ohm’s law has a constant resistance and is called an Ohmic conductor.
+
+![](src/electricity-magnetism20220418223948.png)
 
 A non-ohmic conductor portrays a graph that does not have a constant gradient (non-linear).
 
 ![](src/electricity-magnetism20220415214139.png)
 
-### Resistivity
+#### Resistance
 
-The resistance of an object is proportional to its length (L) and inversely proportional to its cross-sectional area (A).
+Resistance is defined by [Ohm's Law](#ohms-law) as
 
-The resistance is influenced by the resistivity constant of the object (determined by the material it is made out of).
+$$
+R=\frac{V}{I}
+$$
 
-![](src/electricity-magnetism20220415214158.png)
+> Note that resistance is **NOT** defined as "how hard" current travels through a circuit or what not
 
-### Power Dissipation
+To find resistance, do **NOT** calculate the slope of $V$ over $I$ as resistance is not defined as $\frac{\Delta V}{\Delta I}$. Calculate the resistance at each individual data point and calculate the arithmetic maen.
 
-The power (P) dissipated in a resistor can be given by
+Resistance is cuased by electrons imparting energy to the atoms of the material which makes them vibrate faster. This increase in vibration impedes the flow of electrons.
 
-![](src/electricity-magnetism20220415214217.gif)
+#### Simple Circuits
 
-![](src/electricity-magnetism20220415214229.png)
+##### Voltage Devider
 
-This means electrical energy is “lost” as heat energy or other forms of energy that are not considered useful over time.
+A voltage devider or potential devider is a circuit that uses resistors to devide one power source into smaller potential differences.
+![](src/electricity-magnetism20220418225121.png)
 
-## Electric cells
+The resultant voltage can be found using Ohm's Law. In many cases, the ration of the two resistors will determine the voltage outputs.
+![](src/electricity-magnetism20220418225248.png)
 
-### Cells
+##### Rheostat - Variable Resistor
+
+A variable resistor is a resistor in which it's resistance can be changed. Often, a fillament is used and a selector is attached to select parts of the fillament for the current to pass through.  
+![](src/electricity-magnetism20220418225412.png)
+
+##### Potentiometre
+
+A potentiometer varies the voltage very much like the [voltage devider](#voltage-devider). Here a selector clamps on sections of a fillament thats connected to a power source which we can vary how much material is included which will change the voltage accross the component due to $V=IR$
+![](src/electricity-magnetism20220418225815.png)
+
+#### Kirchhoff's Circuit Laws
+
+Kirchhoff’s junction rule is a statement of the conservation of charge flow per time. The sum of all currents flowing into a junction must equal the sum of all currents flowing out.
+
+$$
+\sum{I_{in}} =\sum{I_{out}}
+$$
+
+Kirchhoff’s loop rule is a statement of the conservation of electric potential energy per charge. For a complete loop of an electrical circuit all of the electric potential rises added together must equal all of the electric potential drops added together.
+
+$$
+\sum_{\text {loop }} \Delta V_{\text {rises }}=\sum_{\text {loop }} \Delta V_{\text {drops }}
+$$
+
+##### Usage of Kirchhoff's Circuit Laws
+
+We can use Kirchoff's Circuit Laws to find the voltage, current and power accross a resistor in a circuit with two power sources.
+Here are a set of rules based on Kirchoff's Laws:
+
+1. Follow the direction of conventional current (from - to +)
+2. if a power source's negative terminal is encountered, there will be a **potential rise**
+3. if a power source's positive terminal is encountered, there will be a **potential drop**
+4. if a current is encountered in the same direction as the travelling current, there will be a **potential drop of $I\times R$**
+5. if a current is encountered in the opposite direction as the travelling current, there will be a **potential rise of $I\times R$**
+
+The best way to approach is to first start on the negative side of each power source and draw the current path following conventional current.
+Here's an example:
+![](src/electricity-magnetism20220418231321.png)
+
+**following yellow**
+
+1. Potential rise of $V_A$
+2. Potential drop of $I_A\times 4$
+3. Potential rise of $I_B\times 5$ due to encountering current in opposite direction
+4. Potential drop of $I_A\times 5$
+5. Potential drop of $I_A\times 2$
+
+**following orange**
+
+1. Potential rise of $V_B$
+2. Potential drop of $I_B\times 6$
+3. Potential rise of $I_A\times 5$ due to encountering current in opposite direction
+4. Potential drop of $I_B\times 5$
+5. Potential drop of $I_B\times 10$
+
+In the end, both loops must result with a potential difference of 0. Thus we can solve for $I_A$ and $I_B$.
+![](src/electricity-magnetism20220418232758.png)
+
+We can also follow the total loop and equate that to 0.
+
+**following green**
+
+1. Potential rise of $V_A$
+2. Potential drop of $I_A\times 4$
+3. Potential drop of $I_B\times 10$
+4. Potential rise of $V_B$
+5. Potential drop of $I_B\times 6$
+6. Potential drop of $I_A\times 2$
+
+### Electric cells
+
+#### Cells
 
 A cell in a circuit acts as a source of electrical energy and creates an electric potential difference at its terminals.
 
-A battery is made up of two cells connected.
+A battery is often made up of two or more cells connected.
 
 ![](src/electricity-magnetism20220415214253.png)
 
-### Internal Resistance
+#### Internal Resistance
 
-The internal resistance is the resistance of a source determined by the material it is made up of.
+The internal resistance is the resistance of a source determined by the material it is made up of. Any material that makes power has internal resistance, this includes batteries, power supplies, power genrators etc.
+![](src/electricity-magnetism20220418230125.png)  
+The potential difference at the terminals of a source is less than the EMF of the source due to internal resistance which can be used to calculated the EMF since EMF includes both internal and external resistance.
 
-The internal resistance can be used to calculated the emf. (see the last section of 5.3)
+##### How to Measure Internal Resistance
 
-### Secondary Cells
+Since we cannot go into a power source and maesure the resistance, we can estimate it using data.
+![](src/electricity-magnetism20220418230402.png)
 
-A secondary cell or battery can be recharged after use by passing current through the circuit in opposite direction to the current during the discharge.
+In this setup, we know that EMF is equal to the internal resistance times the current plus the terminal voltage. By measuring the current and terminal voltage, we can find the internal resistance if we graph data points of terminal voltage against current. When terminal voltage is 0, EMF is also 0 thus we can find the internal resistance.
 
-![fig3](https://i0.wp.com/ibphysics.org/wp-content/uploads/2016/01/fig3.gif?fit=525%2C370&ssl=1)
-
-### Terminal Potential Difference
-
-The potential difference at the terminals of a source is less than the emf of the source due to internal resistance. (see the last section of 5.3)
-
-### Electromotive Force (EMF)
-
-The electromotive force (emf) of a source is defined as the energy per unit charge supplied by the source.
-
-The unit for emf is volt (V).
-
-![](src/electricity-magnetism20220415214357.png)
-
-![](src/electricity-magnetism20220415214403.png)
+> Note that a good voltmeter(multimeter these days) can measure EMF pretty well since they have a really large internal resistance and a very small current. Thus the measured voltage is very close to EMF.
 
 ## Magnetic Effects of Electric Currents
 

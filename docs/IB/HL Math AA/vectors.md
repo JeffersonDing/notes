@@ -96,7 +96,7 @@ $$
 \vec{a}\cdot \vec{b}=0,\ \cos \theta =0,\ \theta =90^{\circ }\\
 \vec{a}\cdot \vec{b}=\left| a\right| \left| b\right| ,\ \cos \theta =1,\ \theta =0\\
 \vec{a}\cdot \vec{b} >0, \cos \theta  >0\\
-\vec{a}\cdot \vec{b} <0, cos\theta  <0,
+\vec{a}\cdot \vec{b} <0, cos\theta  <0
 \end{aligned}
 $$
 
