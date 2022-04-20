@@ -439,7 +439,6 @@ It travels through a electric field created by $V_p$ with velocity $v$ and we ad
 In order for the electron to travel straight:
 
 $$
-
 \begin{align*}
 F_e &= F_B\\
 qE &= qv\vec{B}\sin{\theta}\\
@@ -447,8 +446,6 @@ E &= v\vec{B}\\
 \frac{E}{B}&=v=\sqrt{\frac{2V_A}{m}}\\
 \frac{q}{m}&=\frac{E^2}{2B^2V_A}
 \end{align*}
-
-
 $$
 
 This is how we fould the ratio of charge to mass of an electron. (J.J. Tomson)
