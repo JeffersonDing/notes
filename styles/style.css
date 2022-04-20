@@ -1,0 +1,25 @@
+img{
+    display:block;
+    margin:1rem auto;
+    border-radius: .3rem;
+    max-height: 450px;
+}
+h5 {
+    font-size: .9em !important;
+    text-decoration: underline;
+}
+
+.md-logo img{
+    height: 2rem !important;
+    margin: .1rem auto;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #c2c9d2;
+}

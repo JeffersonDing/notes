@@ -1,0 +1,4673 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.9">
+    
+    
+      
+        <title>Market Failure - Jefferson Ding's Public Notes</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.120efc48.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.9647289d.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../styles/style.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="purple">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#market-failure" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Jefferson Ding&#39;s Public Notes" class="md-header__button md-logo" aria-label="Jefferson Ding's Public Notes" data-md-component="logo">
+      
+  <img src="../../../img/favicon.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Jefferson Ding's Public Notes
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Market Failure
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="purple"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Jefferson Ding&#39;s Public Notes" class="md-nav__button md-logo" aria-label="Jefferson Ding's Public Notes" data-md-component="logo">
+      
+  <img src="../../../img/favicon.png" alt="logo">
+
+    </a>
+    Jefferson Ding's Public Notes
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Indroduction
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          CTF Writeups
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="CTF Writeups" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          CTF Writeups
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Protostar
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Protostar" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Protostar
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/Protostar/" class="md-nav__link">
+        Pheonix Protostar Binaries
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          picoCTF 2021
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="picoCTF 2021" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          picoCTF 2021
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_1" type="checkbox" id="__nav_2_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3_1">
+          Binary Exploitation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Binary Exploitation" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Binary Exploitation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Binary%20Exploitation/" class="md-nav__link">
+        Index
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Binary%20Exploitation/binary_gauntlet_0/" class="md-nav__link">
+        Binary Gauntlet 0
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Binary%20Exploitation/binary_gauntlet_1/" class="md-nav__link">
+        Binary Gauntlet 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Binary%20Exploitation/binary_gauntlet_2/" class="md-nav__link">
+        Binary Gauntlet 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Binary%20Exploitation/binary_gauntlet_3/" class="md-nav__link">
+        Binary Gauntlet 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Binary%20Exploitation/cache_me_outside/" class="md-nav__link">
+        Cache me outside
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Binary%20Exploitation/filtered_shellcode/" class="md-nav__link">
+        Filtered shellcode
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Binary%20Exploitation/kit_engine/" class="md-nav__link">
+        Kit Engine
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Binary%20Exploitation/libc/" class="md-nav__link">
+        Here's a libc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Binary%20Exploitation/stonks/" class="md-nav__link">
+        Stonks
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Binary%20Exploitation/unsubscriptions_are_free/" class="md-nav__link">
+        Unsubscriptions are Free
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Binary%20Exploitation/whats_your_input/" class="md-nav__link">
+        Whats your Input
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_2" type="checkbox" id="__nav_2_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3_2">
+          Cryptography
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Cryptography" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Cryptography
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Cryptography/README%209.51.32%20PM/" class="md-nav__link">
+        Cryptography
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Cryptography/clouds/" class="md-nav__link">
+        Clouds
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Cryptography/compress_and_attack/" class="md-nav__link">
+        Compress and Attack
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Cryptography/double_des/" class="md-nav__link">
+        Double DES
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Cryptography/easy_peasy/" class="md-nav__link">
+        Easy Peasy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Cryptography/it_is_my_birthday/" class="md-nav__link">
+        It is my birthday
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Cryptography/its_not_my_fault_1/" class="md-nav__link">
+        It's Not My Fault 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Cryptography/its_not_my_fault_2/" class="md-nav__link">
+        It's Not My Fault 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Cryptography/mind_your_p_q/" class="md-nav__link">
+        Mind Your P Q
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Cryptography/mini_rsa/" class="md-nav__link">
+        Mini RSA
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Cryptography/new_caesar/" class="md-nav__link">
+        New Caesar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Cryptography/new_vignere/" class="md-nav__link">
+        New Vignere
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Cryptography/no_padding_no_problem/" class="md-nav__link">
+        No Padding No Problem
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Cryptography/play_nice/" class="md-nav__link">
+        Play Nice
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Cryptography/scrambled_RSA/" class="md-nav__link">
+        Scrambled RSA
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_3" type="checkbox" id="__nav_2_3_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3_3">
+          Forensics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Forensics" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          Forensics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Forensics/README%209.50.23%20PM/" class="md-nav__link">
+        Forensics
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Forensics/cat/" class="md-nav__link">
+        Cat
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Forensics/disk_disk_sleuth/" class="md-nav__link">
+        Disk Disk Sleuth
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Forensics/macrohard_weakedge/" class="md-nav__link">
+        Microsoft Weekedge
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Forensics/milk_slap/" class="md-nav__link">
+        Milk Slap
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Forensics/pixelated/" class="md-nav__link">
+        Pixelated
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Forensics/surfing_the_waves/" class="md-nav__link">
+        Surfing the Waves
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Forensics/trivial_flag_transfer_protocol/" class="md-nav__link">
+        Trivial Flag Transfer Protocol
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Forensics/tunn3l_v1s10n/" class="md-nav__link">
+        Tunnel Vision
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Forensics/very_very_hidden/" class="md-nav__link">
+        Very Very Hidden
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Forensics/weird_file/" class="md-nav__link">
+        Weird File
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Forensics/wireshark_doo/" class="md-nav__link">
+        Wireshark Doo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Forensics/wireshark_two/" class="md-nav__link">
+        Wireshark Two
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_4" type="checkbox" id="__nav_2_3_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3_4">
+          General Skills
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="General Skills" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          General Skills
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/General%20Skills/README%209.52.45%20PM/" class="md-nav__link">
+        Basic
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/General%20Skills/nice_netcat/" class="md-nav__link">
+        Nice Netcat
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/General%20Skills/python_wrangling/" class="md-nav__link">
+        Python Wrangling
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/General%20Skills/static_noise/" class="md-nav__link">
+        Static Noise
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/General%20Skills/tab_attack/" class="md-nav__link">
+        Tab Attack
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/General%20Skills/wave_a_flag/" class="md-nav__link">
+        Wave a Flag
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_5" type="checkbox" id="__nav_2_3_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3_5">
+          Reverse Engineering
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Reverse Engineering" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_5">
+          <span class="md-nav__icon md-icon"></span>
+          Reverse Engineering
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Reverse%20Engineering/ARMsembly_1/" class="md-nav__link">
+        ARMAssembly 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Reverse%20Engineering/ARMsembly_2-4/" class="md-nav__link">
+        ARMAssembly 2-4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Reverse%20Engineering/ARMssembly_0/" class="md-nav__link">
+        ARMssembly 0
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Reverse%20Engineering/README%209.53.08%20PM/" class="md-nav__link">
+        README 9.53.08 PM
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Reverse%20Engineering/check_pass/" class="md-nav__link">
+        Check pass
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Reverse%20Engineering/crackme_py/" class="md-nav__link">
+        Crackme py
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Reverse%20Engineering/easy_as_gdb/" class="md-nav__link">
+        Easy as gdb
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Reverse%20Engineering/gogo/" class="md-nav__link">
+        Gogo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Reverse%20Engineering/hurry_up_wait/" class="md-nav__link">
+        Hurry up wait
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Reverse%20Engineering/keygenme_py/" class="md-nav__link">
+        Keygenme-py
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Reverse%20Engineering/lets_get_dynamic/" class="md-nav__link">
+        Lets get dynamic
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Reverse%20Engineering/powershelly/" class="md-nav__link">
+        Powershelly
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Reverse%20Engineering/shop/" class="md-nav__link">
+        Shop
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Reverse%20Engineering/speeds_and_feeds/" class="md-nav__link">
+        Speeds and feeds
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Reverse%20Engineering/transformation/" class="md-nav__link">
+        Transformation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_6" type="checkbox" id="__nav_2_3_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3_6">
+          Web Exploitation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Web Exploitation" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_6">
+          <span class="md-nav__icon md-icon"></span>
+          Web Exploitation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Web%20Exploitation/README%209.53.22%20PM/" class="md-nav__link">
+        Web Challenges
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Web%20Exploitation/ancient_history/" class="md-nav__link">
+        Ancient History
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Web%20Exploitation/bithug/" class="md-nav__link">
+        Bithug
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Web%20Exploitation/cookies/" class="md-nav__link">
+        Cookies
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Web%20Exploitation/more_cookies/" class="md-nav__link">
+        More Cookies
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Web%20Exploitation/most_cookies/" class="md-nav__link">
+        Most Cookies
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Web%20Exploitation/scavenger_hunt/" class="md-nav__link">
+        Scavenger Hunt
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Web%20Exploitation/some_assembly_required_1/" class="md-nav__link">
+        Some Assembly Required 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Web%20Exploitation/some_assembly_required_3/" class="md-nav__link">
+        Some Assembly Required 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Web%20Exploitation/some_assembly_required_4/" class="md-nav__link">
+        Some Assembly Required 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Web%20Exploitation/startup_company/" class="md-nav__link">
+        Startup Company
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Web%20Exploitation/super_serial/" class="md-nav__link">
+        Super Serial
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Web%20Exploitation/web_gauntlet_2/" class="md-nav__link">
+        SQL Injection
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Web%20Exploitation/web_gauntlet_3/" class="md-nav__link">
+        Web Gauntlet 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Web%20Exploitation/who_are_you/" class="md-nav__link">
+        Who Are You!
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/Web%20Exploitation/x_marks_the_spot/" class="md-nav__link">
+        X Marks the Spot
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_7" type="checkbox" id="__nav_2_3_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3_7">
+          Demo
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Demo" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_7">
+          <span class="md-nav__icon md-icon"></span>
+          Demo
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/demo/" class="md-nav__link">
+        Index
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_7_2" type="checkbox" id="__nav_2_3_7_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3_7_2">
+          Caesar
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Caesar" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_3_7_2">
+          <span class="md-nav__icon md-icon"></span>
+          Caesar
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/demo/caesar/" class="md-nav__link">
+        Index
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_7_3" type="checkbox" id="__nav_2_3_7_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3_7_3">
+          Garden
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Garden" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_3_7_3">
+          <span class="md-nav__icon md-icon"></span>
+          Garden
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/demo/garden/" class="md-nav__link">
+        Index
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_7_4" type="checkbox" id="__nav_2_3_7_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3_7_4">
+          Reverse
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Reverse" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_3_7_4">
+          <span class="md-nav__icon md-icon"></span>
+          Reverse
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202021/demo/reverse/" class="md-nav__link">
+        Index
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4">
+          picoCTF 2022
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="picoCTF 2022" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          picoCTF 2022
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4_1" type="checkbox" id="__nav_2_4_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4_1">
+          Binary Exploitation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Binary Exploitation" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          Binary Exploitation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Binary%20Exploitation/CVE-XXXX-XXXX/" class="md-nav__link">
+        CVE XXXX XXXX
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Binary%20Exploitation/RPS/" class="md-nav__link">
+        RPS
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Binary%20Exploitation/basic-file-exploit/" class="md-nav__link">
+        Basic File Exploit
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Binary%20Exploitation/buffer-overflow-0/" class="md-nav__link">
+        Buffer Overflow 0
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Binary%20Exploitation/buffer-overflow-1/" class="md-nav__link">
+        Buffer overflow 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Binary%20Exploitation/buffer-overflow-2/" class="md-nav__link">
+        Buffer overflow 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Binary%20Exploitation/buffer-overflow-3/" class="md-nav__link">
+        Buffer overflow 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Binary%20Exploitation/flag-leak/" class="md-nav__link">
+        Flag leak
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Binary%20Exploitation/function-overwrite/" class="md-nav__link">
+        Function overwrite
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Binary%20Exploitation/ropfu/" class="md-nav__link">
+        Ropfu
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Binary%20Exploitation/solfire/" class="md-nav__link">
+        Solfire
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Binary%20Exploitation/stack-cache/" class="md-nav__link">
+        Stack cache
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Binary%20Exploitation/wine/" class="md-nav__link">
+        Wine
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Binary%20Exploitation/x-sixty-what/" class="md-nav__link">
+        X sixty what
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4_2" type="checkbox" id="__nav_2_4_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4_2">
+          Cryptography
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Cryptography" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Cryptography
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Cryptography/backdoor/" class="md-nav__link">
+        Backdoor
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Cryptography/basic-mod1/" class="md-nav__link">
+        Basic mod1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Cryptography/basic-mod2/" class="md-nav__link">
+        Basic mod2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Cryptography/credstuff/" class="md-nav__link">
+        Credstuff
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Cryptography/diffie-hellman/" class="md-nav__link">
+        Diffie hellman
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Cryptography/morse-code/" class="md-nav__link">
+        Morse code
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Cryptography/nsa-backdoor/" class="md-nav__link">
+        Nsa backdoor
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Cryptography/rail-fence/" class="md-nav__link">
+        Rail fence
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Cryptography/sequences/" class="md-nav__link">
+        Sequences
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Cryptography/smooth/" class="md-nav__link">
+        Smooth
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Cryptography/substitution0/" class="md-nav__link">
+        Substitution0
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Cryptography/substitution1/" class="md-nav__link">
+        Substitution1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Cryptography/substitution2/" class="md-nav__link">
+        Substitution2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Cryptography/sum-o-primes/" class="md-nav__link">
+        Sum o primes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Cryptography/transposition-trial/" class="md-nav__link">
+        Transposition trial
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Cryptography/very-smooth/" class="md-nav__link">
+        Very smooth
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Cryptography/vigenere/" class="md-nav__link">
+        Vigenere
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4_3" type="checkbox" id="__nav_2_4_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4_3">
+          Forensics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Forensics" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Forensics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Forensics/eavesdrop/" class="md-nav__link">
+        Eavesdrop
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Forensics/enhance/" class="md-nav__link">
+        Enhance
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Forensics/file-types/" class="md-nav__link">
+        File types
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Forensics/lookey-here/" class="md-nav__link">
+        Lookey here
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Forensics/operation-oni/" class="md-nav__link">
+        Operation oni
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Forensics/operation-orchid/" class="md-nav__link">
+        Operation orchid
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Forensics/packets-primer/" class="md-nav__link">
+        Packets primer
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Forensics/redaction-gone-wrong/" class="md-nav__link">
+        Redaction gone wrong
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Forensics/sidechannel/" class="md-nav__link">
+        Sidechannel
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Forensics/sleuthkit-apprentice/" class="md-nav__link">
+        Sleuthkit apprentice
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Forensics/sleuthkit-intro/" class="md-nav__link">
+        Sleuthkit intro
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Forensics/st3g0/" class="md-nav__link">
+        St3g0
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Forensics/torrent-analyze/" class="md-nav__link">
+        Torrent analyze
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4_4" type="checkbox" id="__nav_2_4_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4_4">
+          Reverse Engineering
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Reverse Engineering" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          Reverse Engineering
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Reverse%20Engineering/GDB-test-drive/" class="md-nav__link">
+        GDB test drive
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Reverse%20Engineering/bbbbloat/" class="md-nav__link">
+        Bbbbloat
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Reverse%20Engineering/bloat.py/" class="md-nav__link">
+        Bloat.py
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Reverse%20Engineering/file-run1/" class="md-nav__link">
+        File run1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Reverse%20Engineering/file-run2/" class="md-nav__link">
+        File run2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Reverse%20Engineering/fresh-java/" class="md-nav__link">
+        Fresh java
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Reverse%20Engineering/keygenme/" class="md-nav__link">
+        Keygenme
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Reverse%20Engineering/patchme.py/" class="md-nav__link">
+        Patchme.py
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Reverse%20Engineering/safe-opener/" class="md-nav__link">
+        Safe opener
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Reverse%20Engineering/unpackme/" class="md-nav__link">
+        Unpackme
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Reverse%20Engineering/unpackme.py/" class="md-nav__link">
+        Unpackme.py
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Reverse%20Engineering/wizardlike/" class="md-nav__link">
+        Wizardlike
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4_5" type="checkbox" id="__nav_2_4_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4_5">
+          Web Exploitation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Web Exploitation" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_4_5">
+          <span class="md-nav__icon md-icon"></span>
+          Web Exploitation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Web%20Exploitation/forbidden-paths/" class="md-nav__link">
+        Forbidden paths
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Web%20Exploitation/includes/" class="md-nav__link">
+        Includes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Web%20Exploitation/inspect-html/" class="md-nav__link">
+        Inspect html
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Web%20Exploitation/live-art/" class="md-nav__link">
+        Live art
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Web%20Exploitation/local-authority/" class="md-nav__link">
+        Local authority
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Web%20Exploitation/noted/" class="md-nav__link">
+        Noted
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Web%20Exploitation/power-cookie/" class="md-nav__link">
+        Power cookie
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Web%20Exploitation/roboto-sans/" class="md-nav__link">
+        Roboto sans
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Web%20Exploitation/search-source/" class="md-nav__link">
+        Search source
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Web%20Exploitation/secrets/" class="md-nav__link">
+        Secrets
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Web%20Exploitation/sql-direct/" class="md-nav__link">
+        Sql direct
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/picoCTF%202022/Web%20Exploitation/sqlilite/" class="md-nav__link">
+        Sqlilite
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_5">
+          redpwnCTF 2021
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="redpwnCTF 2021" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          redpwnCTF 2021
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5_1" type="checkbox" id="__nav_2_5_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_5_1">
+          Binary Exploitation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Binary Exploitation" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_5_1">
+          <span class="md-nav__icon md-icon"></span>
+          Binary Exploitation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/redpwnCTF%202021/Binary%20Exploitation/coffer-overflow-0/" class="md-nav__link">
+        coffer-overflow-0
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/redpwnCTF%202021/Binary%20Exploitation/coffer-overflow-1/" class="md-nav__link">
+        coffer-overflow-1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/redpwnCTF%202021/Binary%20Exploitation/coffer-overflow-2/" class="md-nav__link">
+        coffer-overflow-2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/redpwnCTF%202021/Binary%20Exploitation/secret-flag/" class="md-nav__link">
+        secret-flag
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/redpwnCTF%202021/Binary%20Exploitation/the-library/" class="md-nav__link">
+        the-library
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5_2" type="checkbox" id="__nav_2_5_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_5_2">
+          Cryptography
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Cryptography" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          Cryptography
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/redpwnCTF%202021/Cryptography/4k-rsa/" class="md-nav__link">
+        4k RSA
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/redpwnCTF%202021/Cryptography/alien-transmission-v2/" class="md-nav__link">
+        alien tx v2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/redpwnCTF%202021/Cryptography/base64/" class="md-nav__link">
+        base646464
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/redpwnCTF%202021/Cryptography/itsy-bitsy/" class="md-nav__link">
+        itsy-bitsy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/redpwnCTF%202021/Cryptography/primimity/" class="md-nav__link">
+        primimity
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/redpwnCTF%202021/Cryptography/pseudo-key/" class="md-nav__link">
+        pseudo-key
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5_3" type="checkbox" id="__nav_2_5_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_5_3">
+          Miscellaneous
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Miscellaneous" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_5_3">
+          <span class="md-nav__icon md-icon"></span>
+          Miscellaneous
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/redpwnCTF%202021/Miscellaneous/CaaSiNo/" class="md-nav__link">
+        CaSSiNo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/redpwnCTF%202021/Miscellaneous/uglybash/" class="md-nav__link">
+        uglybash
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5_4" type="checkbox" id="__nav_2_5_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_5_4">
+          Reverse Engineering
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Reverse Engineering" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_5_4">
+          <span class="md-nav__icon md-icon"></span>
+          Reverse Engineering
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/redpwnCTF%202021/Reverse%20Engineering/bubbly/" class="md-nav__link">
+        bubbly
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/redpwnCTF%202021/Reverse%20Engineering/ropes/" class="md-nav__link">
+        ropes
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5_5" type="checkbox" id="__nav_2_5_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_5_5">
+          Web Exploitation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Web Exploitation" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_5_5">
+          <span class="md-nav__icon md-icon"></span>
+          Web Exploitation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/redpwnCTF%202021/Web%20Exploitation/panda/" class="md-nav__link">
+        panda facts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/redpwnCTF%202021/Web%20Exploitation/static-pastebin/" class="md-nav__link">
+        static-pastebin
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/redpwnCTF%202021/Web%20Exploitation/static-static-hosting/" class="md-nav__link">
+        static-static-hosting
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../CTF%20Writeups/redpwnCTF%202021/Web%20Exploitation/tux-fanpage/" class="md-nav__link">
+        tux-fanpage
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          IB
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="IB" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          IB
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1">
+          HL Economics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="HL Economics" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          HL Economics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Market Failure
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Market Failure
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summarized-notes" class="md-nav__link">
+    Summarized Notes
+  </a>
+  
+    <nav class="md-nav" aria-label="Summarized Notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#taxes-subsidies" class="md-nav__link">
+    Taxes &amp; Subsidies
+  </a>
+  
+    <nav class="md-nav" aria-label="Taxes &amp; Subsidies">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#taxes" class="md-nav__link">
+    Taxes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsidies" class="md-nav__link">
+    Subsidies
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#price-controls" class="md-nav__link">
+    Price Controls
+  </a>
+  
+    <nav class="md-nav" aria-label="Price Controls">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#price-ceilings" class="md-nav__link">
+    Price Ceilings
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#price-floors" class="md-nav__link">
+    Price Floors
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#negative-positive-externalities" class="md-nav__link">
+    Negative &amp; Positive Externalities
+  </a>
+  
+    <nav class="md-nav" aria-label="Negative &amp; Positive Externalities">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#negative-externalities" class="md-nav__link">
+    Negative Externalities
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#positive-externalities" class="md-nav__link">
+    Positive Externalities
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-pool-resources-public-goods" class="md-nav__link">
+    Common Pool Resources &amp; Public Goods
+  </a>
+  
+    <nav class="md-nav" aria-label="Common Pool Resources &amp; Public Goods">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#common-pool-resources" class="md-nav__link">
+    Common Pool Resources
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public-goods" class="md-nav__link">
+    Public Goods
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#asymmetric-information" class="md-nav__link">
+    Asymmetric Information
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#definitions-list" class="md-nav__link">
+    Definitions List
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paper-2-writing-tips" class="md-nav__link">
+    Paper 2 Writing Tips
+  </a>
+  
+    <nav class="md-nav" aria-label="Paper 2 Writing Tips">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#question-1" class="md-nav__link">
+    Question 1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#question-2-3" class="md-nav__link">
+    Question 2 &amp; 3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#question-4" class="md-nav__link">
+    Question 4
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review-questions" class="md-nav__link">
+    Review Questions
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          HL Math AA
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="HL Math AA" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          HL Math AA
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../HL%20Math%20AA/vectors/" class="md-nav__link">
+        Vectors
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" type="checkbox" id="__nav_3_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3">
+          HL Physics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="HL Physics" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          HL Physics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../HL%20Physics/electricity-magnetism/" class="md-nav__link">
+        Eectricity and Magnetism
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../HL%20Physics/measurement/" class="md-nav__link">
+        Measurement
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../HL%20Physics/mechanics/" class="md-nav__link">
+        Mechanics
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../HL%20Physics/thermal-physics/" class="md-nav__link">
+        Thermal physics
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../HL%20Physics/waves/" class="md-nav__link">
+        Unit 4: Waves
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_4" type="checkbox" id="__nav_3_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_4">
+          SL Chemistry
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="SL Chemistry" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          SL Chemistry
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SL%20Chemistry/bonding/" class="md-nav__link">
+        Chemical Bonding and Structure
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5" type="checkbox" id="__nav_3_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_5">
+          SL Spanish B
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="SL Spanish B" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_5">
+          <span class="md-nav__icon md-icon"></span>
+          SL Spanish B
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SL%20Spanish%20B/gramar/" class="md-nav__link">
+        Gramática
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Journals
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Journals" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Journals
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Journals/plover/" class="md-nav__link">
+        Plover Journal
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Miscellaneous
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Miscellaneous" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Miscellaneous
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Miscellaneous/functions/" class="md-nav__link">
+        Advanced Functions - PLAR Exam
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summarized-notes" class="md-nav__link">
+    Summarized Notes
+  </a>
+  
+    <nav class="md-nav" aria-label="Summarized Notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#taxes-subsidies" class="md-nav__link">
+    Taxes &amp; Subsidies
+  </a>
+  
+    <nav class="md-nav" aria-label="Taxes &amp; Subsidies">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#taxes" class="md-nav__link">
+    Taxes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsidies" class="md-nav__link">
+    Subsidies
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#price-controls" class="md-nav__link">
+    Price Controls
+  </a>
+  
+    <nav class="md-nav" aria-label="Price Controls">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#price-ceilings" class="md-nav__link">
+    Price Ceilings
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#price-floors" class="md-nav__link">
+    Price Floors
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#negative-positive-externalities" class="md-nav__link">
+    Negative &amp; Positive Externalities
+  </a>
+  
+    <nav class="md-nav" aria-label="Negative &amp; Positive Externalities">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#negative-externalities" class="md-nav__link">
+    Negative Externalities
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#positive-externalities" class="md-nav__link">
+    Positive Externalities
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-pool-resources-public-goods" class="md-nav__link">
+    Common Pool Resources &amp; Public Goods
+  </a>
+  
+    <nav class="md-nav" aria-label="Common Pool Resources &amp; Public Goods">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#common-pool-resources" class="md-nav__link">
+    Common Pool Resources
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public-goods" class="md-nav__link">
+    Public Goods
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#asymmetric-information" class="md-nav__link">
+    Asymmetric Information
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#definitions-list" class="md-nav__link">
+    Definitions List
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paper-2-writing-tips" class="md-nav__link">
+    Paper 2 Writing Tips
+  </a>
+  
+    <nav class="md-nav" aria-label="Paper 2 Writing Tips">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#question-1" class="md-nav__link">
+    Question 1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#question-2-3" class="md-nav__link">
+    Question 2 &amp; 3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#question-4" class="md-nav__link">
+    Question 4
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review-questions" class="md-nav__link">
+    Review Questions
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="market-failure">Market Failure<a class="headerlink" href="#market-failure" title="Permanent link">&para;</a></h1>
+<p>Notes, Key Points, Paper 2 Tips &amp; Sample Questions</p>
+<h2 id="summarized-notes">Summarized Notes<a class="headerlink" href="#summarized-notes" title="Permanent link">&para;</a></h2>
+<h3 id="taxes-subsidies">Taxes &amp; Subsidies<a class="headerlink" href="#taxes-subsidies" title="Permanent link">&para;</a></h3>
+<h4 id="taxes">Taxes<a class="headerlink" href="#taxes" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Governments impose indirect tax to create government revenue, discourage consumption of certain demerit goods, to redistribute income and a method of improving the allocation of resources.</li>
+<li>When a specific tax is imposed, consumers pay more and consume less. Producers receive less revenue and sell less products/services. The government receives tax revenue and workers receive lower wages due to reduced total producer revenue. Society as a whole loses allocating efficiency. However, it can be compensated.</li>
+</ul>
+<h4 id="subsidies">Subsidies<a class="headerlink" href="#subsidies" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Governments provide subsidies for three main reasons: Lower price of an essential good, guarantee supplies that are necessary and enable producers to compete with overseas trade.</li>
+<li>When evaluating a subsidy, the opportunity cost from providing other firms subsidies, damage done to foreign producers, players paying taxes and the efficiency/decreased incentive created.</li>
+</ul>
+<h3 id="price-controls">Price Controls<a class="headerlink" href="#price-controls" title="Permanent link">&para;</a></h3>
+<h4 id="price-ceilings">Price Ceilings<a class="headerlink" href="#price-ceilings" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Governments impose price ceilings to help consumers obtain necessity and merit goods at a cheaper price.</li>
+<li>There can be consequences caused by price ceilings aside from a shortage in the market. Price ceilings can create an underground market, create queues for producers and cause unfairness in distribution of limited goods.</li>
+<li>When a price ceiling is imposed, consumers partly gain and partly lose where some consumers gain extra surplus by purchasing the product at a lower price. However, the shortage caused other consumers to have no access at all to the product or service and remain unsatisfied. Society experiences a loss in allocating efficiency (deadweight loss). Workers might get fired due to a reduction of quantity supplied and loss in total producer revenue. Governments do not gain nor lose economically but can gain political popularity amongst consumers who benefitted.</li>
+<li>To eliminate or reduce the shortage caused by a price ceiling governments can: find ways to reduce demand for a product but this limits the consumption of a product, find ways to increase the supply of the product through subsidies and direct provision.</li>
+</ul>
+<h4 id="price-floors">Price Floors<a class="headerlink" href="#price-floors" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Price floors are imposed to raise income for producers of goods and services that the government thinks are important and to protect workers by setting a minimum wage that ensures they can live a reasonable life. Some examples of price floors are minimum wages for workers, minimum prices for agricultural goods and minimum prices for alcohol.</li>
+<li>Price floors will create inefficiency due to a surplus. Governments can use the following four ways to address the surplus: buying up the surplus (store, destroy or sell to other countries), increasing demand through advertising, restricting overseas imports or imposing a producer quota.</li>
+<li>A minimum wage is a type of price floor, the minimum price for a market of a factor of production: labour. A minimum wage can increase income for low-paid workers, increase labour productivity, offset employer power-imbalance and increase incentive for people to enter the labour market. However, a minimum wage can cause unemployment in competitive markets, encourage the creation of informal/illegal labour markets, destruction of small businesses and higher prices for firms to pass on to consumers.</li>
+</ul>
+<h3 id="negative-positive-externalities">Negative &amp; Positive Externalities<a class="headerlink" href="#negative-positive-externalities" title="Permanent link">&para;</a></h3>
+<ul>
+<li>When society doesn't take into account externalities, it leads to market failure.</li>
+</ul>
+<h4 id="negative-externalities">Negative Externalities<a class="headerlink" href="#negative-externalities" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Negative externalities of production is a cost that is suffered by a third party as a result of production of a good or service. An example would be the production of steel where toxic chemicals are produced for society.</li>
+<li>When negative externalities of production are not recognized, an overproduction of that good or service will cause allocating inefficiency or welfare loss. There will be two optimums: the market equilibrium and the social equilibrium where it's the social optimum. In this situation, no party can benefit more without harming another by changing its production/consumption.</li>
+<li>Solutions to negative production externalities are government regulation for producers, indirect taxations or a market for the externality.</li>
+<li>Tradable permits can be issued to firms to create a market for pollution. This creates a quota for each firm on their pollution and incentives firms to pollute less since permits can be sold for money.</li>
+<li>Negative externalities of consumption happen on the consumer side where consumers harm others by consuming more of a product or service, such as smoking.</li>
+<li>An overconsumption will happen and cause deadweight loss which leads to allocative inefficiency. In the case of demerit goods, they are overproduced by the market and over-consumed by consumers because they often have unrecognized negative externalities of consumption and people just don't care about the harmful effects upon themselves and others.</li>
+<li>To combat negative consumption externalities, governments can create legislation banning or reducing consumption, imposing taxes for certain demerit goods, provide education/advertisement to society or use consumer nudges to make consumers voluntarily reduce consumption.</li>
+</ul>
+<h4 id="positive-externalities">Positive Externalities<a class="headerlink" href="#positive-externalities" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Positive externalities is when the side-effect on a third party that's not a producer or a consumer that pays to consume a product or service is beneficial.</li>
+<li>When a firm produces a good or service and there is a positive benefit to third parties such as society a positive externality of production is present. This often leads to a situation where the cost to the private individuals is higher than the cost to society and creates an underproduction of said product or service which leads to deadweight loss or potential welfare gain.</li>
+<li>To combat positive externalities of production, governments can directly provide the good or service through direct provision or provide subsidies to firms.</li>
+<li>Positive externalities of consumption are benefits to third parties when a good or service is consumed. This leads to a situation where the benefit to society is greater than the benefit to the private consumer thus an under-consumption often happens. This also causes deadweight loss or potential welfare gain.</li>
+<li>In the case of merit goods, they are often services that benefit society as a whole more than the consumer such as education, healthcare, sport facilities etc. They are often under consumed because of a lack of recognition, low levels of income and poverty and blatant consumer ignorance.</li>
+<li>To combat positive externalities of consumption, governments can create legislation to consume more, positive advertising, direct government provision for certain products or services or subsidies.</li>
+</ul>
+<h3 id="common-pool-resources-public-goods">Common Pool Resources &amp; Public Goods<a class="headerlink" href="#common-pool-resources-public-goods" title="Permanent link">&para;</a></h3>
+<h4 id="common-pool-resources">Common Pool Resources<a class="headerlink" href="#common-pool-resources" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Common pool resources are non-excludable and rival and that's why the main consequence in the absence of government intervention is resource degradation.</li>
+<li>Common pool resources are very susceptible to negative externalities (both production and consumption) because they are non-excludable so overconsumption/overproduction will occur.</li>
+<li>The tragedy of the commons refers to the consequences of non-excludability of common resources. When a party simply "losses" in self-interest if one does not consume more of a common pool resource which causes exhaustion of limited resources.</li>
+<li>The free rider problem is when parties consider society as a whole and do not act upon self-interest, other "free riders" will simply consume/produce more of the common pool resources with no consequences.</li>
+<li>To combat the tragedy of the commons International agreements, tradable permits, carbon taxes, legislation/regulations, subsidies and collective self governance are often used.</li>
+<li><img alt="" src="../src/market_failure20220406110151.png" /></li>
+</ul>
+<h4 id="public-goods">Public Goods<a class="headerlink" href="#public-goods" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Public goods often cause market failure because there is no profit incentive and usually can't be provided by any market. Some examples are street lights, breathable air, lighthouses and national defense.</li>
+<li>Public goods have two key characteristics of being non-excludable and non-rival. One cannot reasonably stop another from using the resource and when one person uses the good, others can still use the good.</li>
+<li>To combat the issue of public goods, governments often resort to direct provision or heavy subsidies or work in partnership with firms in the private sector.</li>
+</ul>
+<h3 id="asymmetric-information">Asymmetric Information<a class="headerlink" href="#asymmetric-information" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Asymmetric information refers to a situation when one party to an economic transaction possesses greater material knowledge than the other party.</li>
+<li>Asymmetric information often causes market failure due to two reasons: Uncertainty of the buyer will drive prices down across the whole market. This will further cause the market to collapse and no trade will occur at any price point.</li>
+<li>Due to asymmetric information, when consumers know more than the producers, there will be a selection of who to provide a good/service to, or there will be a price raise since consumers who need the good/service to will use it more (ie. less healthy people and health insurance)</li>
+<li>An example of adverse selection would be insurance companies choosing who to sell their product to or creating unreasonable prices for people who the company thinks is not safe to sell the product in an attempt to scare them away from purchasing.</li>
+<li>The most important way to combat asymmetric information is signalling. For example sellers are required to tell buyers the condition of each car, life insurance companies require customers to do health checkups before selling them products etc.</li>
+<li>Moral hazards are situations where one person is trying to get another person to behave in a certain way but if the first person cannot observe the second person's work and the second person needs to put effort into said work, the second person can simply avoid work.</li>
+<li>Both moral hazards and adverse selection can cause market failure. In the case of adverse selection, the market failure occurs before an economic transaction has been made. One party has more information than the other, and this gives the party an advantage going into the transaction. In the case of moral hazard, the market failure occurs after the economic transaction has been made. The party with greater knowledge of the risk has the advantage following the transaction.</li>
+</ul>
+<h2 id="definitions-list">Definitions List<a class="headerlink" href="#definitions-list" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Indirect Tax<ul>
+<li>Tax imposed on spending to buy goods and services. Paid by the producer (firms) but are partially passed to the consumer.</li>
+</ul>
+</li>
+<li>Excise Taxes<ul>
+<li>Tax on a specific good and services</li>
+</ul>
+</li>
+<li>Specific Taxes<ul>
+<li>A type of excise tax of a fixed dollar amount</li>
+</ul>
+</li>
+<li>Ad Valorem Taxes<ul>
+<li>A type of excise tax of a fixed percentage amount</li>
+</ul>
+</li>
+<li>General Taxes<ul>
+<li>Taxes on all (or most) goods and services</li>
+</ul>
+</li>
+<li>Subsidy<ul>
+<li>An amount of money paid by the government to a firm, per unit output, to increase output and lower price.</li>
+</ul>
+</li>
+<li>Price Controls<ul>
+<li>A minimum or maximum price set by the government such that prices are unable to adjust to equilibrium level</li>
+</ul>
+</li>
+<li>Price Ceilings<ul>
+<li>A maximum price for a good or service set by the government</li>
+</ul>
+</li>
+<li>Price Floors<ul>
+<li>A minimum price for a good or service set by the government</li>
+</ul>
+</li>
+<li>Merit Good<ul>
+<li>Goods or services that are beneficial to consumers and also beneficial to society when consumed. Merit goods are often underproduced.</li>
+</ul>
+</li>
+<li>Underground Market / Black Market<ul>
+<li>An illegal market in which a good/service is sold at a higher price, somewhere between the price ceiling and the equilibrium price.</li>
+</ul>
+</li>
+<li>Quota<ul>
+<li>A quota is a quantity restriction on the amount of goods that can be produced in a market.</li>
+</ul>
+</li>
+<li>Market Failure<ul>
+<li>Market prices fail to reflect all the costs and benefits involved in transactions and thus the market cannot reach allocative efficiency.</li>
+</ul>
+</li>
+<li>Externalities<ul>
+<li>When some costs or benefits associated with the production or consumption of a good/service "spill over" to third parties who do not produce or pay to consume the good/service.</li>
+</ul>
+</li>
+<li>Positive Externality<ul>
+<li>A type of externality where benefits are enjoyed by someone who doesn't pay to consume or produce a good or service.</li>
+</ul>
+</li>
+<li>Negative Externality<ul>
+<li>A type of externality where costs are paid by someone who doesn't produce or pay to consume a product or service.</li>
+</ul>
+</li>
+<li>Marginal Private Cost (MPC)<ul>
+<li>The cost to producers of producing one more unit of a good or service</li>
+</ul>
+</li>
+<li>Marginal Social Cost (MSC)<ul>
+<li>The cost to society of producing one more unit of a good or service. MSC includes production and external cost.</li>
+</ul>
+</li>
+<li>Marginal Private Benefit (MPB)<ul>
+<li>The benefit to consumers from consuming 1 more unit of a good or service.</li>
+</ul>
+</li>
+<li>Marginal Social Benefit (MSB)<ul>
+<li>The benefit to society from consuming 1 more unit of a good or service.</li>
+</ul>
+</li>
+<li>Social Optimum/Allocative Efficiency<ul>
+<li>The state of the market when all costs and benefits are aligned.</li>
+</ul>
+</li>
+<li>Demerit Goods<ul>
+<li>Demerit goods are goods that are undesirable for consumers and society but over provided by the market.</li>
+</ul>
+</li>
+<li>Common Pool Resources<ul>
+<li>Natural resources that are non-excludable and rival.</li>
+</ul>
+</li>
+<li>Non-excludable<ul>
+<li>One cannot reasonably or cost effectively prevent someone else from using a resource.</li>
+</ul>
+</li>
+<li>Rival<ul>
+<li>A situation where one party's use of the good diminishes another parties ability to use it.</li>
+</ul>
+</li>
+<li>Sustainability<ul>
+<li>Maintaining the ability of the environment and the economy to continue to produce and satisfy the needs and wants of future generations.</li>
+</ul>
+</li>
+<li>Public Good<ul>
+<li>Goods that are to become freely available to all or where it would be difficult to prevent non-payers from using.</li>
+</ul>
+</li>
+<li>Asymmetric Information<ul>
+<li>Refers to a situation when one party to an economic transaction possesses greater material knowledge than the other party.</li>
+</ul>
+</li>
+<li>Adverse Selection<ul>
+<li>The situation where sellers select who to provide a good or service to due to asymmetric information.</li>
+</ul>
+</li>
+<li>Moral Hazard<ul>
+<li>Moral hazard is a situation in which one party gets involved in a risky event knowing that it is protected against the risk and the other party will incur the cost. It arises when both the parties have incomplete information about each other.</li>
+</ul>
+</li>
+</ul>
+<h2 id="paper-2-writing-tips">Paper 2 Writing Tips<a class="headerlink" href="#paper-2-writing-tips" title="Permanent link">&para;</a></h2>
+<p>Data response test → Newspaper articles, readings etc.</p>
+<h4 id="question-1">Question 1<a class="headerlink" href="#question-1" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>4 marks 5 min 😄</p>
+</blockquote>
+<p>1 or 2 sentences maximum for full marks.</p>
+<ol>
+<li>A <strong>vague</strong> definition for 1 mark 📉</li>
+<li>A <strong>precise</strong> definition for 2 marks 📈</li>
+</ol>
+<h4 id="question-2-3">Question 2 &amp; 3<a class="headerlink" href="#question-2-3" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>8 marks total, 4 each 😍</p>
+</blockquote>
+<p>Diagram + written response (explaining the diagram and analyzing). 😡 Always read the text before responding referring to the diagram and text.</p>
+<p>" <strong>Using a market failure diagram</strong> , <strong>illustrate</strong> and <strong>explain</strong> how the vaccines market can be an example of market failure"</p>
+<h4 id="question-4">Question 4<a class="headerlink" href="#question-4" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>8 marks 🥵</p>
+</blockquote>
+<p>Evaluate + Synthesis</p>
+<p><strong>To evaluate:</strong></p>
+<ul>
+<li>Have a conclusion statement, paragraph form.</li>
+<li>Conclusion should "weigh" the evidence (show both sides).</li>
+<li>"On the one hand…, on the other hand…, overall…"</li>
+</ul>
+<p><strong>Look at:</strong></p>
+<ul>
+<li>Stakeholders</li>
+<li>Pros/cons</li>
+<li>Short run/long run</li>
+<li>Priorities</li>
+</ul>
+<p><strong>ALWAYS</strong> :</p>
+<ul>
+<li>Refer to paragraph numbers from the text</li>
+<li>Quote from the text</li>
+</ul>
+<h2 id="review-questions">Review Questions<a class="headerlink" href="#review-questions" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Discuss the significance of price elasticity of demand (PED) for a government imposing an indirect tax on a good.</li>
+<li>Explain two reasons why a government might impose an indirect tax on a good.</li>
+<li>Evaluate the impact that an increase in indirect tax might have on consumers and producers.</li>
+<li>A government decides to impose an indirect tax on unhealthy drinks. Discuss the consequences for the stakeholders in these markets.</li>
+<li>Discuss the view that governments should tax the consumption of gasoline (petroleum).</li>
+<li>Explain how the incidence of an indirect tax depends on the price elasticity of demand and the price elasticity of supply.</li>
+<li>Discuss the consequences of imposing an indirect tax on unhealthy food.</li>
+<li>Explain why a government might decide to impose an indirect tax on the consumption of cigarettes.</li>
+<li>Discuss the possible consequences of the imposition of an indirect tax on cigarettes for the different stakeholders in the market.</li>
+<li>Discuss the consequences of the introduction of an indirect tax on gasoline (petrol) for consumers, producers and the government.</li>
+<li>Explain two reasons why governments impose indirect taxes.</li>
+<li>Discuss the consequences for consumers, producers and the government of imposing a specific tax on cigarettes.</li>
+<li>Explain why governments impose indirect taxes.</li>
+<li>Using diagrams, explain how the incidence of an indirect tax may be affected by the price elasticity of demand.</li>
+<li>Discuss the view that the provision of subsidies by the government on goods such as agricultural products will always be beneficial to stakeholders.</li>
+<li>Explain two reasons why a government might want to subsidise a good or service.</li>
+<li>Explain why governments provide subsidies for some goods and services.</li>
+<li>Discuss the consequences of providing a subsidy for goods such as agricultural products</li>
+<li>Discuss the consequences for different stakeholders in the economy of the government providing subsidies on goods, such as renewable energy.</li>
+<li>Explain two reasons why governments might subsidise basic food such as wheat.</li>
+<li>Discuss the consequences for the government and for consumers of subsidising the price of admission to museums.</li>
+<li>Discuss the consequences of providing a subsidy on the production of rice for producers, consumers and the government.</li>
+<li>Explain why a government might decide to impose a price ceiling on goods and services such as essential foods or rented housing.</li>
+<li>Discuss the view that price controls imposed by governments on the market for rented housing should never be used.</li>
+<li>Explain why governments impose price floors (minimum prices)</li>
+<li>Discuss the consequences for producers, consumers and the government of imposing a price floor (minimum price) on a good.</li>
+<li>Discuss the impact on different stakeholders of governments using price floors (minimum prices) to support farmers when agricultural prices are falling.</li>
+<li>Examine the possible consequences of governments imposing a price ceiling in the market for rented housing.</li>
+<li>Discuss possible consequences of a government imposing a price floor on an agricultural product.</li>
+<li>Using a price ceiling diagram, analyse the impact a maximum price might have on the market for food.</li>
+<li>Explain why a government might impose a price ceiling on the market for rented accommodation and a price floor on the market for agricultural products.</li>
+<li>Evaluate the possible consequences of price controls on the stakeholders in a market.</li>
+<li>Discuss the view that governments should not intervene in housing markets.</li>
+<li>Discuss the policies a government might use to make food more affordable to low income groups.</li>
+<li>Examine the view that the best allocation of resources, from a society's point of view, occurs where the marginal private benefit equals the marginal private cost.</li>
+<li>Discuss the view that competitive markets will always achieve allocative efficiency.</li>
+<li>Discuss the view that a free market at competitive market equilibrium leads to the most efficient allocation of resources from society's point of view.</li>
+<li>Negative externalities of production and consumption</li>
+<li>Using an appropriate externalities diagram, explain why a government might decide to impose a price floor on a demerit goods.</li>
+<li>Evaluate the view that the most effective way in which the government can discourage the consumption of demerit goods is through government regulations.</li>
+<li>Discuss the view that imposing an indirect tax on gasoline (petrol) is the most effective way of reducing the market failure caused by cars.</li>
+<li>Evaluate the view that the use of regulation is the most effective way to reduce negative externalities.</li>
+<li>Explain why demerit goods are an example of market failure.</li>
+<li>Evaluate the effectiveness of using indirect taxation to correct market failure.</li>
+<li>Evaluate the view that regulations are the most effective government response to the market failure of negative externalities.</li>
+<li>Evaluate the view that the market failure caused by the consumption of demerit goods is best dealt with through the use of taxation.</li>
+<li>Discuss three policies a government might use to reduce the consumption of a demerit good such as cigarettes.</li>
+<li>Using a diagram, explain why demerit goods are considered to be an example of market failure.</li>
+<li>Evaluate two possible government responses that could be used to address the problem of demerit goods.</li>
+<li>To what extent might the problems of negative externalities of consumption be resolved by the use of indirect taxation?</li>
+<li>Positive externalities of production and consumption</li>
+<li>Evaluate the view that the most effective way in which the government can encourage the consumption of merit goods is through direct provision.</li>
+<li>Explain why public transport, such as buses and trains, might be under-provided in a market economy.</li>
+<li>To what extent is advertising the most effective way of increasing the consumption of merit goods?</li>
+<li>Explain why the consumption of merit goods, such as healthy food, can lead to positive externalities of consumption.</li>
+<li>Discuss whether advertising by the government is the most appropriate way of increasing consumption of a merit good.</li>
+<li>Explain why the under-consumption of merit goods causes market failure.</li>
+<li>To what extent are subsidies the most effective way of encouraging the consumption of merit goods?</li>
+<li>Analyse the private and external benefits associated with the consumption of university education.</li>
+<li>Explain the policies a government might use to increase the consumption of university education.</li>
+<li>Analyse the consumption externalities which might arise from the provision of education and healthcare for the citizens of a country.</li>
+<li>Evaluate the use of government policies to increase the consumption of healthcare.</li>
+<li>Discuss the implications of the direct provision of public goods by a government.</li>
+<li>Discuss the consequences of the direct provision of public goods by the government.</li>
+<li>Discuss whether there should always be direct provision of public goods by the government.</li>
+<li>Explain why the exploitation of common access resources, such as uncontrolled fishing, might pose a threat to sustainability.</li>
+<li>Evaluate whether the use of carbon taxes is the most effective way for the government to deal with the threat to sustainability posed by the use of fossil fuels.</li>
+<li>Explain how the overuse of common access resources can lead to negative externalities</li>
+<li>Discuss the view that the best way to reduce the threat to sustainability, arising from the burning of fossil fuels, is for the government to provide subsidies to</li>
+<li>firms that produce energy through renewable resources.</li>
+<li>Examine the consequences of the lack of a pricing mechanism for common access resources.</li>
+<li>Discuss the view that the overuse of common access resources is best addressed by the government.</li>
+<li>Discuss two possible government responses to threats to sustainability.</li>
+<li>Explain why common access resources, such as fishing grounds, might become depleted in the absence of a price mechanism.</li>
+<li>Explain why monopoly power may be considered a type of market failure.</li>
+<li>Discuss the view that legislation is the best way of dealing with the problem of monopoly power.</li>
+<li>Oligopolists often possess too much monopoly power. Evaluate whether governments should intervene in oligopolistic markets.</li>
+<li>Explain two possible government responses to the abuse of monopoly power.</li>
+<li>Explain how welfare loss may result from monopoly power.</li>
+<li>Discuss the effectiveness of government policies (legislation and regulation) to reduce monopoly power.</li>
+<li>Market failure can occur when there is asymmetric information, abuse of monopoly power and positive externalities. Explain why any two of these represent market failure.</li>
+</ol>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../../../CTF%20Writeups/redpwnCTF%202021/Web%20Exploitation/tux-fanpage/" class="md-footer__link md-footer__link--prev" aria-label="Previous: tux-fanpage" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              tux-fanpage
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../HL%20Math%20AA/vectors/" class="md-footer__link md-footer__link--next" aria-label="Next: Vectors" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Vectors
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.6e54b5cd.min.js"></script>
+      
+        <script src="../../../javascript/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
