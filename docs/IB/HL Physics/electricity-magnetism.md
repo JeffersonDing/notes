@@ -97,12 +97,12 @@ The electromotive force (EMF) of a source is defined as the energy per unit char
 
 $$
 \begin{aligned}
-&E=V+I r \\
-&E=I(R+r)
+&\mathcal{E}=V+I r \\
+&\mathcal{E}=I(R+r)
 \end{aligned}
 $$
 
-where $E=$ Electromotive force, $\mathrm{V}=$ Potential difference (Voltage), $I=$ Current, $\mathrm{R}=$ Load resistance and $r=$ Internal resistance
+where $\mathcal{E}=$ Electromotive force, $\mathrm{V}=$ Potential difference (Voltage), $I=$ Current, $\mathrm{R}=$ Load resistance and $r=$ Internal resistance
 
 ### Electric Current
 
@@ -131,7 +131,7 @@ where $n$ is the charge density which is the number of charge carriers per unit 
 
 ### Power
 
-Power is the work done per unit time. Recall that
+Power is the work done per unit time measured in Watts. Recall that
 
 $$
 V=\frac{E}{Q} \\
@@ -144,7 +144,11 @@ $$
 V\times I= \frac{E}{Q}\times \frac{Q}{t} = \frac{E}{t}=P
 $$
 
-Power is measured in Watts.
+Due to this relationship, the following equations also stand true:
+
+$$
+P=IV=I^2R=\frac{V^2}{R}
+$$
 
 > The amount of work done to make an electron go through a potential difference of 1V is known as the "electron volt" or $eV$. It is found using $eV=VQ=1V\times 1.6\times 10^{-19}$
 
@@ -213,6 +217,16 @@ $$
 To find resistance, do **NOT** calculate the slope of $V$ over $I$ as resistance is not defined as $\frac{\Delta V}{\Delta I}$. Calculate the resistance at each individual data point and calculate the arithmetic maen.
 
 Resistance is cuased by electrons imparting energy to the atoms of the material which makes them vibrate faster. This increase in vibration impedes the flow of electrons.
+
+#### Resistivity
+
+Resistivity is the property of a material that causse it to oppose a current. It's measured in Ohm-Meters ($\omega m$) It can be calculated by:
+
+$$
+\rho = \frac{RA}{l}
+$$
+
+Where $R$ is the resistance, $A$ is the cross sectional area and $l$ is the length of the conducting material.
 
 #### Simple Circuits
 
@@ -372,25 +386,7 @@ To find the direction in which the magnetic field is pointing, the right hand ru
 
 ### Magnetic Force
 
-The magnitude of the force acting on a current-carrying wire due to a magnetic field can be given by
-
-![](src/electricity-magnetism20220415214520.png)
-
-The equation may be multiplied by sinθ where θ is the angle between the direction of the field and the current. This can be ignored when θ=90 degrees because sin90 degrees equals to 1.
-
-#### Magnetic Force on a Conductor
-
-The magnitude of the force acting on a moving charge due to a magnetic field can be given by
-
-$$
-F = Il\vec{B}\sin(\theta)
-$$
-
-where F is the force acting on the wire, I is the current through the conductor ,l is the length of conductor in the field, and θ is the angle between the direction of the field and the conductor.
-
-![](src/electricity-magnetism20220419094222.png)
-
-##### Complete Right Hand Rule
+#### Complete Right Hand Rule
 
 Another right hand rule can help us find the direction of the force on a conductor in a magnetic field. To do so:
 
@@ -403,3 +399,54 @@ Another right hand rule can help us find the direction of the force on a conduct
 If the angle between the conductor and field is not $90\degree$, if the thumb is pointing up, the direction is pointing outwards and vice verca.
 
 ![](src/electricity-magnetism20220419094545.png)
+
+#### On a Conductor
+
+The magnitude of the force acting on a moving charge due to a magnetic field can be given by
+
+$$
+F = Il\vec{B}\sin(\theta)
+$$
+
+where F is the force acting on the wire, I is the current through the conductor ,l is the length of conductor in the field, and θ is the angle between the direction of the field and the conductor.
+
+![](src/electricity-magnetism20220419094222.png)
+
+#### On a Point Charge
+
+The force a magnetic force on a point charge through a magnetic field is found by:
+
+$$
+\begin{align*}
+F &= \frac{q}{t}l\vec{B}\sin{\theta}\\
+&= vq\vec{B}\sin{\theta}
+\end{align*}
+$$
+
+![](src/electricity-magnetism20220419151449.png)  
+where $q$ is the charge of the particle(often its $1.6\times 10^{-19}$ for proton/electron), $v$ is the velocity the particle is traveling at, $\vec{B}$ is the magnetic field and $\theta$ is the angle between the magnetic fields and the directon of the velocity.
+
+> Note that to find the direction of the force, the Right Hand Rule can still be used but make sure to **flip** the direction of velocity(thumb) if the point charge is negative.
+> ![](src/electricity-magnetism20220419151513.png)
+
+#### Balancing Magnetic Field
+
+The charge will not travel in a straight line in an electrical field but we can balance that with another magnetic field.  
+First, a electron gun will shoot out an electron using a potential difference:
+![](src/electricity-magnetism20220419152029.png)  
+It travels through a electric field created by $V_p$ with velocity $v$ and we add a magnetic field with the force $F_B$ countering the attraction of $F_e$.
+![](src/electricity-magnetism20220419152250.png)  
+In order for the electron to travel straight:
+
+$$
+\begin{align*}
+F_e &= F_B\\
+qE &= qv\vec{B}\sin{\theta}\\
+E &= v\vec{B}\\
+\frac{E}{B}&=v=\sqrt{\frac{2V_A}{m}}\\
+\frac{q}{m}&=\frac{E^2}{2B^2V_A}
+
+\end{align*}
+$$
+
+This is how we fould the ratio of charge to mass of an electron. (J.J. Tomson)
